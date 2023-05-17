@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanQRActivity"
+    android:background="#BDAEAD"
+    style="@style/AppTheme.MaterialTheme">
+
+    <TextView
+        android:id="@+id/scanTV"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+      android:layout_centerInParent="true"
+        android:background="@color/black_shade_1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Scanned Date will appear here"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/scanTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_button"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"/>
+
+
+
+
+</RelativeLayout>
